@@ -1,26 +1,36 @@
-# داده‌ساز فارسی
-برای آن‌که طرح‌های آزمایشی خود را با داده‌های غیر واقعی و تصادفی پر کنید!
-برنامه‌نویس: [وب‌پژوه](https://webpajooh.github.io/WebPajooh/)
+<h1 id="" lang="fa" dir="rtl" align="right">داده‌ساز فارسی</h1>
 
-## شیوه‌ی استفاده
-برای استفاده ابتدا فایل PersianFaker.php را فراخوانی کنید، سپس با استفاده از متد get به فراخوانی زمینه‌ی مورد نظر پرداخته و پارامتر دوم را به تنظیمات اختصاص دهید.
+<p lang="fa" dir="rtl" align="right">برای آن‌که طرح‌های آزمایشی خود را با داده‌های غیر واقعی و تصادفی پر کنید!
+برنامه‌نویس: <a href="https://webpajooh.github.io/WebPajooh/">وب‌پژوه</a></p>
 
-## مثال
-    <?php
-    include 'PersianFaker.php';
-    echo PersianFaker::get('FullName', ['sex' => 'f']);
+<h2 id="-1" lang="fa" dir="rtl" align="right">شیوه‌ی استفاده</h2>
+<p lang="fa" dir="rtl" align="right">برای استفاده ابتدا فایل PersianFaker.php را فراخوانی کنید، سپس با استفاده از متد get به فراخوانی زمینه‌ی مورد نظر پرداخته و پارامتر دوم را به تنظیمات اختصاص دهید.</p>
 
-## زمینه‌ها
+<h2 id="-2" lang="fa" dir="rtl" align="right">مثال</h2>
+<pre><code>&lt;?php
+include 'PersianFaker.php';
+echo PersianFaker::get('FullName', ['sex' =&gt; 'f']);
+</code></pre>
 
- - MaleName
- - FemaleName
- - LastName
- - FullName
- - City
- - Certificate (مدرک تحصیلی)
- - Age
+<h2 id="-3" lang="fa" dir="rtl" align="right">زمینه‌ها</h2>
+<ul>
+<li>MaleName</li>
 
-## تنظیمات
+<li>FemaleName</li>
 
- - زمینه‌ی Age به آرایه‌ای شامل دو کلید min و max نیاز دارد که هر دو مقداری عددی هستند.
- - زمینه‌ی FullName تنها یک گزینه دارد که کلید sex به معنای جنسیت است و یکی از دو مقدار m (برای نام‌های مردانه) و f (برای نام‌های زنانه) را می‌پذیرد.
+<li>LastName</li>
+
+<li>FullName</li>
+
+<li>City</li>
+
+<li>Certificate (مدرک تحصیلی)</li>
+
+<li>Age</li>
+</ul>
+
+<h2 id="-4" lang="fa" dir="rtl" align="right">تنظیمات</h2>
+<ul>
+<li lang="fa" dir="rtl" align="right">زمینه‌ی Age به آرایه‌ای شامل دو کلید min و max نیاز دارد که هر دو مقداری عددی هستند.</li>
+<li lang="fa" dir="rtl" align="right">زمینه‌ی FullName تنها یک گزینه دارد که کلید sex به معنای جنسیت است و یکی از دو مقدار m (برای نام‌های مردانه) و f (برای نام‌های زنانه) را می‌پذیرد.</li>
+</ul>
