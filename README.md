@@ -32,7 +32,7 @@ echo PersianFaker::get('FullName', ['sex' =&gt; 'f']);
 </ul>
 
 <h2 id="-4" lang="fa" dir="rtl" align="right">تنظیمات</h2>
-<ul>
+<ul lang="fa" dir="rtl" align="right">
 <li lang="fa" dir="rtl" align="right">زمینه‌ی Age به آرایه‌ای شامل دو کلید min و max نیاز دارد که هر دو مقداری عددی هستند.</li>
 <li lang="fa" dir="rtl" align="right">زمینه‌ی FullName تنها یک گزینه دارد که کلید sex به معنای جنسیت است و یکی از دو مقدار m (برای نام‌های مردانه) و f (برای نام‌های زنانه) را می‌پذیرد.</li>
 <li lang="fa" dir="rtl" align="right">زمینه‌ی Phone یک گزینه به نام withCountryCode از نوع Boolean دارد که در صورت Trueشدن، کد ایران در ابتدای شماره خواهد آمد.</li>
