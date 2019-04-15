@@ -29,6 +29,7 @@ echo PersianFaker::get('FullName', ['sex' =&gt; 'f']);
 <li>Age</li>
 <li>Job</li>
 <li>Phone</li>
+<li>Email</li>
 </ul>
 
 <h2 id="-4" lang="fa" dir="rtl" align="right">تنظیمات</h2>
