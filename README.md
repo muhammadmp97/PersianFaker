@@ -27,6 +27,7 @@ echo PersianFaker::get('FullName', ['sex' =&gt; 'f']);
 <li>Certificate (مدرک تحصیلی)</li>
 
 <li>Age</li>
+<li>IdentityCode (کد ملی)</li>
 <li>Job</li>
 <li>Phone</li>
 <li>Email</li>
