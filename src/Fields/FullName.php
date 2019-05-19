@@ -1,9 +1,6 @@
 <?php
 
-require_once 'Base.php';
-require_once 'MaleName.php';
-require_once 'FemaleName.php';
-require_once 'LastName.php';
+namespace PersianFaker\Fields;
 
 class FullName extends Base
 {
@@ -11,8 +8,8 @@ class FullName extends Base
 
 	public static function generate(array $args)
 	{
-		$map = ['m' => 'Male', 'f' => 'Female'];
-		$firstNameClass = $map[$args['sex']] . 'Name';
+		$map = ['m' => 'MaleName', 'f' => 'FemaleName'];
+		$firstNameClass = "PersianFaker\\Fields\\" . $map[$args['sex']];
 		return $firstNameClass::generate() . ' ' . LastName::generate();
 	}
 }

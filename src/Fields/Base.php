@@ -1,5 +1,7 @@
 <?php
 
+namespace PersianFaker\Fields;
+
 class Base
 {
 	public static function picker(array $array)

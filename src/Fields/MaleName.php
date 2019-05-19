@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Base.php';
+namespace PersianFaker\Fields;
 
 class MaleName extends Base
 {

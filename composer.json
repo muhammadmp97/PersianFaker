@@ -9,5 +9,10 @@
             "email": "webpajooh@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PersianFaker\\": "src/"
+        }
+    }
 }
