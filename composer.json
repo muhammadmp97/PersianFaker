@@ -1,0 +1,13 @@
+{
+    "name": "webpajooh/persian-faker",
+    "description": "Do you need some fake data?",
+    "keywords": ["faker", "persian"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebPajooh",
+            "email": "webpajooh@gmail.com"
+        }
+    ],
+    "require": {}
+}
