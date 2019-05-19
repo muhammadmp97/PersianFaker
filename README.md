@@ -8,7 +8,8 @@
 
 <h2 id="-2" lang="fa" dir="rtl" align="right">مثال</h2>
 <pre><code>&lt;?php
-include 'PersianFaker.php';
+use PersianFaker\PersianFaker;
+
 echo PersianFaker::get('FullName', ['sex' =&gt; 'f']);
 </code></pre>
 
