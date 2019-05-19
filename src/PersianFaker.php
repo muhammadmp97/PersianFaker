@@ -1,5 +1,7 @@
 <?php
 
+namespace PersianFaker;
+
 class PersianFaker
 {
 	public static function get(string $field, array $args = null)
