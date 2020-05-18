@@ -4,7 +4,7 @@
 برنامه‌نویس: <a href="https://webpajooh.github.io/WebPajooh/">وب‌پژوه</a></p>
 
 <h2 id="-1" lang="fa" dir="rtl" align="right">شیوه‌ی استفاده</h2>
-<p lang="fa" dir="rtl" align="right">با دستور زیر، پکیج PersianFaker را نصب کید:</p>
+<p lang="fa" dir="rtl" align="right">با دستور زیر، پکیج PersianFaker را نصب کنید:</p>
 <code>composer require webpajooh/persian-faker</code>
 
 <h2 id="-2" lang="fa" dir="rtl" align="right">مثال</h2>
