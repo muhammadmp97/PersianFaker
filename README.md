@@ -4,7 +4,8 @@
 برنامه‌نویس: <a href="https://webpajooh.github.io/WebPajooh/">وب‌پژوه</a></p>
 
 <h2 id="-1" lang="fa" dir="rtl" align="right">شیوه‌ی استفاده</h2>
-<p lang="fa" dir="rtl" align="right">برای استفاده ابتدا فایل PersianFaker.php را فراخوانی کنید، سپس با استفاده از متد get به فراخوانی زمینه‌ی مورد نظر پرداخته و پارامتر دوم را به تنظیمات اختصاص دهید.</p>
+<p lang="fa" dir="rtl" align="right">با دستور زیر، پکیج PersianFaker را نصب کید:</p>
+<code>composer require webpajooh/persian-faker</code>
 
 <h2 id="-2" lang="fa" dir="rtl" align="right">مثال</h2>
 <pre><code>&lt;?php
