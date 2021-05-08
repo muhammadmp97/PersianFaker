@@ -1,7 +1,6 @@
 <h1 id="" lang="fa" dir="rtl" align="right">داده‌ساز فارسی</h1>
 
 <p lang="fa" dir="rtl" align="right">برای آن‌که طرح‌های آزمایشی خود را با داده‌های غیر واقعی و تصادفی پر کنید!
-برنامه‌نویس: <a href="https://webpajooh.github.io/WebPajooh/">وب‌پژوه</a></p>
 
 <h2 id="-1" lang="fa" dir="rtl" align="right">شیوه‌ی استفاده</h2>
 <p lang="fa" dir="rtl" align="right">با دستور زیر، پکیج PersianFaker را نصب کنید:</p>
